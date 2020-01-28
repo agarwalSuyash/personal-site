@@ -83,7 +83,7 @@ h5{
 	font-size: 1 rem;
 }
 #titleimage{
-	width: 30rem;
+	width: 40%;
 	border-radius: 100%;
 	margin-bottom: 10px;
 }
@@ -94,7 +94,7 @@ h5{
 	z-index: 10;
 	transition: top 0.3s;
 	background-color: #000;
-	padding: 0px 10rem;
+	padding: 0px 10%;
 }
 .navbar img{
 	margin-bottom: 20px;
@@ -188,4 +188,20 @@ hr{
 /*about page */
 .skills{
 	margin-top: 150px;
+}
+/*media queries*/
+@media (max-width : 762px)
+{
+	#titleimage{
+		width: 60%;
+	}
+}
+@media (max-width : 320px)
+{
+	#titleimage{
+		width: 80%;
+	}
+	a.navbar-brand{
+		display: none;
+	}
 }
