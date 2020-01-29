@@ -56,7 +56,7 @@ h5{
 	margin: auto;
 }
 .top-container{
-	margin-top: 100px;
+	padding-top: 100px;
 	background-image: linear-gradient(to right,#ff7315,#f8b400,#FF5F00);
 	position: relative;
 }
